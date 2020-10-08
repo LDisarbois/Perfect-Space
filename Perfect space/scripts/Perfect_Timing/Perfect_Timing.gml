@@ -109,7 +109,7 @@ function Perfect_Cooldown(Time)
 		
 	}else{
 		//tu meurt batard
-		Die();
+		LifeEventBadTiming()
 	}
 }
 	
