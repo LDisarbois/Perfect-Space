@@ -5,7 +5,7 @@
 
 global.MaxTime = 3;
 global.second = 3;
-global.Life = 1;
+global.Life = 3;
 global.goodPercent = 25/100;
 global.PerfectPercent = 13/100;
 global.InsanePercent = 5/100;
@@ -26,7 +26,7 @@ function Die(){
 
 function resetTime(){
 	global.second = 3;
-	BarVie.image_xscale = global.baseSize;
+	Timer_point.image_angle = 0;
 }
 
 function MinusLife()
