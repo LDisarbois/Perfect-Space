@@ -31,6 +31,7 @@
     {"id":{"name":"obj_vaisseau","path":"objects/obj_vaisseau/obj_vaisseau.yy",},"order":1,},
     {"id":{"name":"obj_pla_7","path":"objects/obj_pla_7/obj_pla_7.yy",},"order":8,},
     {"id":{"name":"Sans_titre_5","path":"sprites/Sans_titre_5/Sans_titre_5.yy",},"order":12,},
+    {"id":{"name":"planet_1_anim","path":"sprites/planet_1_anim/planet_1_anim.yy",},"order":20,},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"order":0,},
     {"id":{"name":"basic_movement","path":"scripts/basic_movement/basic_movement.yy",},"order":1,},
     {"id":{"name":"interface_blackring","path":"sprites/interface_blackring/interface_blackring.yy",},"order":17,},
