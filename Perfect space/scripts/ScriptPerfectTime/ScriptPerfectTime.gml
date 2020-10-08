@@ -12,6 +12,8 @@ global.InsanePorcent = 5/100;
 
 
 
+
+
 function Cooldown(timetoperf) 
 {
 	global.secondMax =timetoperf;
