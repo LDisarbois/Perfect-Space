@@ -11,6 +11,8 @@ global.PerfectPercent = 13/100;
 global.InsanePercent = 5/100;
 global.Score = 0;
 
+global.TravelEarn = 0;
+
 
 math_set_epsilon(6);
 
@@ -42,17 +44,26 @@ function Perfect_Timing_event()
 {
 	timing = global.second;
 	if(timing < global.MaxTime*global.goodPercent && timing > global.MaxTime*global.PerfectPercent){
-		global.Score += 100;	
+		Earn_Score();
+		global.TravelEarn = 0;
 	}
 	if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
-		global.Score += 250;
+		Earn_Score();
+		global.TravelEarn = 1;
 	}
 	if(timing < global.MaxTime*global.InsanePercent){
-		global.Score += 500;
+		Earn_Score();
+		global.TravelEarn = 2;
 	}
 	if(timing > global.MaxTime*global.goodPercent){
 		MinusLife();
+		global.TravelEarn = -1;
 	}
+}
+
+
+function Earn_Score(){
+	global.Score += 100;
 }
 
 function Perfect_Cooldown(Time)
