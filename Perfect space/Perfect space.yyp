@@ -58,6 +58,7 @@
     {"id":{"name":"interface_point","path":"sprites/interface_point/interface_point.yy",},"order":18,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
     {"id":{"name":"obj_ok","path":"objects/obj_ok/obj_ok.yy",},"order":15,},
+    {"id":{"name":"SpaceBar","path":"objects/SpaceBar/SpaceBar.yy",},"order":22,},
     {"id":{"name":"Planet_2","path":"sprites/Planet_2/Planet_2.yy",},"order":5,},
     {"id":{"name":"decrochage_2","path":"sprites/decrochage_2/decrochage_2.yy",},"order":32,},
     {"id":{"name":"obj_perfect","path":"objects/obj_perfect/obj_perfect.yy",},"order":17,},

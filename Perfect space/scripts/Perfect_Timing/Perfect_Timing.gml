@@ -103,6 +103,10 @@ function Perfect_Cooldown(Time)
 		global.second = global.second - delta_time/1000000 ;
 		Timer_point.image_angle += ((1/1000000)*360)/global.MaxTime * delta_time;
 		
+		if(global.Score == 0 && global.second <= global.MaxTime*global.goodPercent){
+			spaceIndice.visible = true;
+		}
+		
 	}else{
 		//tu meurt batard
 		LifeEventBadTiming();

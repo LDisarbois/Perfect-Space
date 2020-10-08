@@ -20,6 +20,11 @@ if(!global.move){
 		Perfect_Cooldown(global.MaxTime);
 	
 		if(keyboard_check_pressed(vk_space)){
+			
+			if(global.Score == 0){
+				spaceIndice.visible = false;
+			}
+			
 			Perfect_Timing_event();
 			resetTime();
 		
