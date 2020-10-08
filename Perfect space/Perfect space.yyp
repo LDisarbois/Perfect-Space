@@ -13,6 +13,7 @@
     {"id":{"name":"Planet_9","path":"sprites/Planet_9/Planet_9.yy",},"order":9,},
     {"id":{"name":"ciel_frame1","path":"sprites/ciel_frame1/ciel_frame1.yy",},"order":2,},
     {"id":{"name":"LifeEvent","path":"scripts/LifeEvent/LifeEvent.yy",},"order":3,},
+    {"id":{"name":"planet_6_anim","path":"sprites/planet_6_anim/planet_6_anim.yy",},"order":25,},
     {"id":{"name":"obj_pla_1","path":"objects/obj_pla_1/obj_pla_1.yy",},"order":0,},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"order":21,},
     {"id":{"name":"SpritSheat_FuseExplose_1","path":"sprites/SpritSheat_FuseExplose_1/SpritSheat_FuseExplose_1.yy",},"order":22,},
