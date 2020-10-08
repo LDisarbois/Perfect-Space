@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpritSheat_fuseEntirer",
-    "path": "sprites/SpritSheat_fuseEntirer/SpritSheat_fuseEntirer.yy",
+    "name": "Sans_titre_5",
+    "path": "sprites/Sans_titre_5/Sans_titre_5.yy",
   },
   "solid": false,
   "visible": true,
