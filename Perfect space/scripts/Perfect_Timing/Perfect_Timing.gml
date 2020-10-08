@@ -62,8 +62,10 @@ function Perfect_Cooldown(Time)
 	if(global.second > 0)
 	{
 		global.second = global.second - delta_time/1000000 ;
-		BarVie.image_xscale -= (1/300000)*(delta_time)
-		//show_debug_message((1/ 2000));
+		Timer_point.image_angle += ((1/1000000)*360)/3 * delta_time;
+		
+		// BarVie.image_xscale -= (1/300000)*(delta_time)
+		show_debug_message(global.second);
 	}else{
 		//tu meurt batard
 		Die();
