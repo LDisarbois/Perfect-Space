@@ -5,16 +5,18 @@
 
 global.MaxTime = 3;
 global.second = 3;
-global.Life = undefined;
+global.Life = 1;
 global.goodPercent = 25/100;
 global.PerfectPercent = 13/100;
 global.InsanePercent = 5/100;
 global.Score = 0;
 
 
+
+
 function SetmaxLife(MaxLife) 
 {
-	global.Life = Maxlife;
+	global.Life = MaxLife;
 }
 
 function Die(){
@@ -23,8 +25,9 @@ function Die(){
 
 function MinusLife()
 {
-	global.Life--;
-	if(Life == 0){
+	global.Life --;
+	
+	if(global.Life == 0){
 		Die();
 	}
 }
@@ -48,9 +51,14 @@ function Perfect_Timing_event()
 
 function Perfect_Cooldown(Time)
 {
+	global.MaxTime = Time;
+	global.second = Time;
 	if(global.second >= 0)
 	{
-		global.second --;
+		global.second = global.second - delta_time ;
+		BarVie.image_xscale -= 1/18;
+		show_debug_message(delta_time);
+		//show_debug_message(global.second);
 	}else{
 		//tu meurt batard
 		Die();

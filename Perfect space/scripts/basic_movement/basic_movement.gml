@@ -25,7 +25,8 @@ function basic_movement()
 }
 
 function stop_movement(){
-	stop_movement();	
+	stop_movement();
+	
 }
 
 function reach_planete(){
