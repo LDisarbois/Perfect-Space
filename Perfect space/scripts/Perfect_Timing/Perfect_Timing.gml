@@ -12,6 +12,7 @@ global.InsanePercent = 5/100;
 global.Score = 0;
 
 
+math_set_epsilon(6);
 
 
 function SetmaxLife(MaxLife) 
@@ -21,6 +22,11 @@ function SetmaxLife(MaxLife)
 
 function Die(){
 		room_goto(Mort)
+}
+
+function resetTime(){
+	global.second = 3;
+	BarVie.image_xscale = global.baseSize;
 }
 
 function MinusLife()
@@ -44,7 +50,7 @@ function Perfect_Timing_event()
 	if(timing < global.MaxTime*global.InsanePercent){
 		global.Score += 500;
 	}
-	if(timing > global.goodPercent){
+	if(timing > global.MaxTime*global.goodPercent){
 		MinusLife();
 	}
 }
@@ -52,13 +58,12 @@ function Perfect_Timing_event()
 function Perfect_Cooldown(Time)
 {
 	global.MaxTime = Time;
-	global.second = Time;
-	if(global.second >= 0)
+	
+	if(global.second > 0)
 	{
-		global.second = global.second - delta_time ;
-		BarVie.image_xscale -= 1/18;
-		show_debug_message(delta_time);
-		//show_debug_message(global.second);
+		global.second = global.second - delta_time/1000000 ;
+		BarVie.image_xscale -= (1/300000)*(delta_time)
+		//show_debug_message((1/ 2000));
 	}else{
 		//tu meurt batard
 		Die();
