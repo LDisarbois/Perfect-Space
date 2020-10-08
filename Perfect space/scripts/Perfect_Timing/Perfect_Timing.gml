@@ -26,16 +26,24 @@ function Die(){
 		room_goto(Mort)
 }
 
-function switchScreen(){
-	if (room.name == Mort) {
-		room_goto(Room1);
-	}else if (room.name == Start){
-		room_goto(Room1);
-	}
-}
-
 function resetTime(){
-	global.second = 3;
+	if(global.Score >= 3500) {
+		global.MaxTime = 0.5;
+	} else if(global.Score >= 2500) {
+		global.MaxTime = 0.7;
+	} else if (global.Score >= 1500){
+		global.MaxTime = 1;
+	} else if (global.Score >= 500){
+		global.MaxTime = 2;
+	} else {
+		global.MaxTime = 3;
+	}
+	
+	show_debug_message("LA DOSE OVERDOSE");
+	show_debug_message(global.MaxTime);
+	
+	global.second = global.MaxTime;
+	
 	Timer_point.image_angle = 0;
 }
 
@@ -51,6 +59,10 @@ function MinusLife()
 function Perfect_Timing_event()
 {
 	timing = global.second;
+	
+	show_debug_message("TIME");	show_debug_message(timing);
+
+	
 	if(timing < global.MaxTime*global.goodPercent && timing > global.MaxTime*global.PerfectPercent){
 		Earn_Score();
 		
@@ -88,15 +100,13 @@ function Earn_Score(){
 
 function Perfect_Cooldown(Time)
 {
-	global.MaxTime = Time;
+	// global.MaxTime = Time;
 	
 	if(global.second > 0)
 	{
 		global.second = global.second - delta_time/1000000 ;
-		Timer_point.image_angle += ((1/1000000)*360)/3 * delta_time;
+		Timer_point.image_angle += ((1/1000000)*360)/global.MaxTime * delta_time;
 		
-		// BarVie.image_xscale -= (1/300000)*(delta_time)
-		show_debug_message(global.second);
 	}else{
 		//tu meurt batard
 		Die();
