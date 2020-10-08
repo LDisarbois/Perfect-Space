@@ -4,6 +4,7 @@ if(!global.move){
 
 	if(global.TravelEarn > 0){
 	
+		resetTime();
 		Earn_Score();
 	
 		defineNewTarget();
@@ -16,7 +17,7 @@ if(!global.move){
 		txt_insane.visible = false;
 
 
-		Perfect_Cooldown(3);
+		Perfect_Cooldown(global.MaxTime);
 	
 		if(keyboard_check_pressed(vk_space)){
 			Perfect_Timing_event();
