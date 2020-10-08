@@ -39,9 +39,6 @@ function resetTime(){
 		global.MaxTime = 3;
 	}
 	
-	show_debug_message("LA DOSE OVERDOSE");
-	show_debug_message(global.MaxTime);
-	
 	global.second = global.MaxTime;
 	
 	Timer_point.image_angle = 0;
@@ -59,9 +56,6 @@ function MinusLife()
 function Perfect_Timing_event()
 {
 	timing = global.second;
-	
-	show_debug_message("TIME");	show_debug_message(timing);
-
 	
 	if(timing < global.MaxTime*global.goodPercent && timing > global.MaxTime*global.PerfectPercent){
 		Earn_Score();

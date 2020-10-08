@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Planet_3",
-    "path": "sprites/Planet_3/Planet_3.yy",
+    "name": "planet_6_anim",
+    "path": "sprites/planet_6_anim/planet_6_anim.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_pla_6","path":"objects/obj_pla_6/obj_pla_6.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
