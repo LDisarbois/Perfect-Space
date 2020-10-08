@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "SpritSheat_fuseEntirer",
-    "path": "sprites/SpritSheat_fuseEntirer/SpritSheat_fuseEntirer.yy",
+    "name": "SpriteSheat_flamme",
+    "path": "sprites/SpriteSheat_flamme/SpriteSheat_flamme.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_vaisseau",
+    "path": "objects/obj_vaisseau/obj_vaisseau.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,8 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_vaisseau","path":"objects/obj_vaisseau/obj_vaisseau.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_vaisseau","path":"objects/obj_vaisseau/obj_vaisseau.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Flamme","path":"objects/Flamme/Flamme.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_vaisseau",
+  "name": "Flamme",
   "tags": [],
   "resourceType": "GMObject",
 }

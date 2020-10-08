@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"339d7d84-7e92-43cc-8fec-e06ec83ad226","path":"sprites/Sprite5/Sprite5.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"339d7d84-7e92-43cc-8fec-e06ec83ad226","path":"sprites/Sprite5/Sprite5.yy",},"LayerId":{"name":"bed646ca-0abc-45b0-820c-f5cae5929ae7","path":"sprites/Sprite5/Sprite5.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"resourceVersion":"1.0","name":"339d7d84-7e92-43cc-8fec-e06ec83ad226","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b583c48b-7560-4d29-a796-bc8bde1adbcb","path":"sprites/Sprite21/Sprite21.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b583c48b-7560-4d29-a796-bc8bde1adbcb","path":"sprites/Sprite21/Sprite21.yy",},"LayerId":{"name":"6f5f5b50-f4f7-4a48-88d4-c0e4d7c97487","path":"sprites/Sprite21/Sprite21.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},"resourceVersion":"1.0","name":"b583c48b-7560-4d29-a796-bc8bde1adbcb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},
+    "spriteId": {"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f36272ae-5f2e-4528-931e-4cdcd29542de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"339d7d84-7e92-43cc-8fec-e06ec83ad226","path":"sprites/Sprite5/Sprite5.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"75be039d-11d1-4adc-a88d-ae9b87ce659a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b583c48b-7560-4d29-a796-bc8bde1adbcb","path":"sprites/Sprite21/Sprite21.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},
+    "parent": {"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite5",
+    "name": "Sprite21",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bed646ca-0abc-45b0-820c-f5cae5929ae7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6f5f5b50-f4f7-4a48-88d4-c0e4d7c97487","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Perfect space",
+    "path": "Perfect space.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite5",
+  "name": "Sprite21",
   "tags": [],
   "resourceType": "GMSprite",
 }

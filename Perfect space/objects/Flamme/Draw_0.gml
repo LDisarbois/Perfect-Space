@@ -1,0 +1,1 @@
+draw_sprite(SpriteSheat_flamme,-1,Flamme.x,Flamme.y);

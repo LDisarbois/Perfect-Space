@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8b17a662-2711-4303-a5c6-21359d1061f3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Perfect space",
-    "path": "Perfect space.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite4",
