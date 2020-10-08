@@ -19,7 +19,10 @@ function LifeEventBadTiming()
 {
 	if(global.Life == 3){
 		obj_vaisseau.visible = false;
-		draw_sprite(SpritSheat_FuseExplose_1,-1,obj_vaisseau.x,obj_vaisseau.y);
+		inst = instance_create_layer(obj_vaisseau.x,obj_vaisseau.y,,Mort1);
+		with(inst){
+			inst.image_angle = obj_vaisseau.image_angle;
+		}
 		
 	}
 	if(global.Life == 2){
