@@ -28,10 +28,12 @@ function Die(){
 
 function resetTime(){
 	if(global.Score >= 3500) {
+		global.MaxTime = 0.5;
+	} else if(global.Score >= 2500) {
 		global.MaxTime = 0.7;
-	} else if (global.Score >= 2200){
+	} else if (global.Score >= 1500){
 		global.MaxTime = 1;
-	} else if (global.Score >= 1000){
+	} else if (global.Score >= 500){
 		global.MaxTime = 2;
 	} else {
 		global.MaxTime = 3;
