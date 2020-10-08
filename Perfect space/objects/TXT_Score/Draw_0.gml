@@ -1,3 +1,3 @@
 draw_set_font(Font1)
 
-draw_text(0,0,global.Score)
+draw_text(TXT_Score.x,TXT_Score.y,global.Score)
