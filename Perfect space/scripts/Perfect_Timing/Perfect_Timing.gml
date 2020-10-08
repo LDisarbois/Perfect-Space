@@ -26,6 +26,14 @@ function Die(){
 		room_goto(Mort)
 }
 
+function switchScreen(){
+	if (room.name == Mort) {
+		room_goto(Room1);
+	}else if (room.name == Start){
+		room_goto(Room1);
+	}
+}
+
 function resetTime(){
 	global.second = 3;
 	Timer_point.image_angle = 0;
