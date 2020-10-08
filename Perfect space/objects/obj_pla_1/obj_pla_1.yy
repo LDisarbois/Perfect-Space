@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Planete",
-    "path": "sprites/Planete/Planete.yy",
+    "name": "Planet_1",
+    "path": "sprites/Planet_1/Planet_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_planete",
+  "name": "obj_pla_1",
   "tags": [],
   "resourceType": "GMObject",
 }

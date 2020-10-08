@@ -22,6 +22,7 @@ function basic_movement()
 {
 	global.move = true;
 	move_towards_point(global.target_pla.x, global.target_pla.y, global.move_speed);
+	image_angle = point_direction(x, y, global.target_pla.x, global.target_pla.y);
 }
 
 function stop_movement(){

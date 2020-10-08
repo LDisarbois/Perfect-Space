@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Sans_titre_5",
-    "path": "sprites/Sans_titre_5/Sans_titre_5.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,10 +17,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_vaisseau","path":"objects/obj_vaisseau/obj_vaisseau.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_vaisseau","path":"objects/obj_vaisseau/obj_vaisseau.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +25,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_vaisseau",
+  "name": "Object56",
   "tags": [],
   "resourceType": "GMObject",
 }
