@@ -48,8 +48,10 @@ function MinusLife()
 {
 	global.Life --;
 	
+	LifeDecrease();
+	
 	if(global.Life == 0){
-		Die();
+		LifeEventBadTiming();
 	}
 }
 
@@ -103,7 +105,7 @@ function Perfect_Cooldown(Time)
 		
 	}else{
 		//tu meurt batard
-		LifeEventBadTiming()
+		LifeEventBadTiming();
 	}
 }
 	

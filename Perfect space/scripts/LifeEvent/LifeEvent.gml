@@ -4,9 +4,6 @@
 // for more information
 function LifeEvent() 
 {
-	if(global.Life == 3){
-		
-	}
 	if(global.Life == 2){
 		
 	}
@@ -18,14 +15,21 @@ function LifeEvent()
 function LifeEventBadTiming() 
 {
 	if(global.Life == 3){
-		obj_vaisseau.visible = false;
-		draw_sprite(SpritSheat_FuseExplose_1,-1,obj_vaisseau.x,obj_vaisseau.y);
-		
+		obj_vaisseau.sprite_index = SpritSheat_FuseExplose_1;
 	}
 	if(global.Life == 2){
-		draw_sprite(SpritSheat_FuseExplose_2,-1,obj_vaisseau.x,obj_vaisseau.y);
+		obj_vaisseau.sprite_index = SpritSheat_FuseExplose_2;
+	}
+	if(global.Life <= 1){
+		obj_vaisseau.sprite_index = SpritSheat_FuseExplose_3;
+	}
+}
+
+function LifeDecrease(){
+	if(global.Life == 2){
+		obj_vaisseau.sprite_index = decrochage_1;
 	}
 	if(global.Life == 1){
-		draw_sprite(SpritSheat_FuseExplose_3,-1,obj_vaisseau.x,obj_vaisseau.y);
+		obj_vaisseau.sprite_index = decrochage_2;		
 	}
 }
