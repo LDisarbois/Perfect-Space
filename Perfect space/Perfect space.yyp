@@ -7,7 +7,7 @@
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":0,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},"order":0,},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"ScriptPerfectTime","path":"scripts/ScriptPerfectTime/ScriptPerfectTime.yy",},"order":0,},
     {"id":{"name":"Timeline1","path":"timelines/Timeline1/Timeline1.yy",},"order":0,},
     {"id":{"name":"Extension1","path":"extensions/Extension1/Extension1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
