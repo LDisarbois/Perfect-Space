@@ -33,8 +33,7 @@ function Perfect_Timing_event()
 {
 	timing = global.second;
 	if(timing < global.MaxTime*global.goodPercent && timing > global.MaxTime*global.PerfectPercent){
-		global.Score += 100;
-		
+		global.Score += 100;	
 	}
 	if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
 		global.Score += 250;
