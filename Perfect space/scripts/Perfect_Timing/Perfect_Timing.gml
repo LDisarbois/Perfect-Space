@@ -45,24 +45,36 @@ function Perfect_Timing_event()
 	timing = global.second;
 	if(timing < global.MaxTime*global.goodPercent && timing > global.MaxTime*global.PerfectPercent){
 		Earn_Score();
+		
+		txt_good.visible = true;
+
 		global.TravelEarn = 0;
 	}
 	if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
 		Earn_Score();
+		
+		txt_perfect.visible = true;
+		
 		global.TravelEarn = 1;
 	}
 	if(timing < global.MaxTime*global.InsanePercent){
 		Earn_Score();
+		
+		txt_insane.visible = true;
+
 		global.TravelEarn = 2;
 	}
 	if(timing > global.MaxTime*global.goodPercent){
 		MinusLife();
+
 		global.TravelEarn = -1;
 	}
 }
 
 
 function Earn_Score(){
+	global.pts[global.index_target].visible = true;
+	global.pts[global.index_target].image_speed = 0.8;
 	global.Score += 100;
 }
 

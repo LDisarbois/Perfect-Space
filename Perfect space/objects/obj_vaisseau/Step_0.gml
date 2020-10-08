@@ -11,6 +11,10 @@ if(!global.move){
 		global.TravelEarn--;
 	
 	} else {
+		txt_good.visible = false;
+		txt_perfect.visible = false;
+		txt_insane.visible = false;
+
 
 		Perfect_Cooldown(3);
 	
