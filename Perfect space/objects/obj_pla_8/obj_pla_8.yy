@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Planet_8",
-    "path": "sprites/Planet_8/Planet_8.yy",
+    "name": "planet_8_anim",
+    "path": "sprites/planet_8_anim/planet_8_anim.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_pla_8","path":"objects/obj_pla_8/obj_pla_8.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

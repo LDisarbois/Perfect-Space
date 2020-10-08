@@ -65,6 +65,7 @@
     {"id":{"name":"Timer_circle","path":"objects/Timer_circle/Timer_circle.yy",},"order":12,},
     {"id":{"name":"SpritSheat_FuseExplose_2","path":"sprites/SpritSheat_FuseExplose_2/SpritSheat_FuseExplose_2.yy",},"order":23,},
     {"id":{"name":"spr_vaisseau","path":"sprites/spr_vaisseau/spr_vaisseau.yy",},"order":1,},
+    {"id":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"order":26,},
     {"id":{"name":"MortTXT","path":"sprites/MortTXT/MortTXT.yy",},"order":20,},
     {"id":{"name":"tets","path":"animcurves/tets/tets.yy",},"order":0,},
   ],
