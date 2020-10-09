@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "interface_blackring",
-    "path": "sprites/interface_blackring/interface_blackring.yy",
+    "name": "interface_blackring48",
+    "path": "sprites/interface_blackring48/interface_blackring48.yy",
   },
   "solid": false,
   "visible": true,
