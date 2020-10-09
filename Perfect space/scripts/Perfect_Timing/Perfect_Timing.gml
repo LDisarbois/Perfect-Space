@@ -13,6 +13,8 @@ global.Score = 0;
 
 global.TravelEarn = 0;
 
+global.result = 1;
+
 
 math_set_epsilon(6);
 
@@ -64,6 +66,7 @@ function Perfect_Timing_event()
 		
 		txt_good.visible = true;
 
+		global.result = 1;
 		global.TravelEarn = 0;
 	}
 	if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
@@ -71,6 +74,7 @@ function Perfect_Timing_event()
 		
 		txt_perfect.visible = true;
 		
+		global.result = 2;
 		global.TravelEarn = 1;
 	}
 	if(timing < global.MaxTime*global.InsanePercent){
@@ -78,6 +82,7 @@ function Perfect_Timing_event()
 		
 		txt_insane.visible = true;
 
+		global.result = 3;
 		global.TravelEarn = 2;
 	}
 	if(timing > global.MaxTime*global.goodPercent){
