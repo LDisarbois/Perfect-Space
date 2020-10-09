@@ -27,6 +27,8 @@ function SetmaxLife(MaxLife)
 }
 
 function Die(){
+		audio_play_sound(Tmort,0,false);
+		
 		room_goto(Mort)
 }
 
@@ -105,7 +107,7 @@ function Earn_Score(){
 	global.xp[global.index_target].direction = point_direction(global.xp[global.index_target].x, global.xp[global.index_target].y, TXT_Score.x, TXT_Score.y + 25);
 	global.xp[global.index_target].speed = 15;
 	
-	audio_play_sound_at(meteorite3,global.xp[global.index_target].x,global.xp[global.index_target].y,0,500,2,0,0,1);
+	audio_play_sound(meteorite3,1,0);
 	
 	global.Score += 100;
 }
