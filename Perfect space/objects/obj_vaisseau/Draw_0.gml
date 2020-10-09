@@ -24,7 +24,6 @@ for(var i = 0; i < size_list-1; i++){
 
 	
 }
-
 draw_primitive_end();
 
 

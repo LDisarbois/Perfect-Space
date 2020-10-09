@@ -135,7 +135,6 @@ function Perfect_Cooldown(Time)
 	}else{
 		//tu meurt batard
 		LifeEventBadTiming();
-		audio_play_sound(Tmort,0,false);
 	}
 }
 	

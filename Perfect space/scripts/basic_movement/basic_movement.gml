@@ -54,6 +54,10 @@ function stop_movement(){
 	
 }
 
+function shakeSprite(){
+	
+}
+
 function reach_planete(){
 	
 	if(x < global.target_pla.x) {
