@@ -80,7 +80,7 @@ function Perfect_Timing_event()
 		global.result = 1;
 		global.TravelEarn = 0;
 	}
-	if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
+	else if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
 		audio_play_sound(Perfect,0,false);
 		Earn_Score();
 		
@@ -89,7 +89,7 @@ function Perfect_Timing_event()
 		global.result = 2;
 		global.TravelEarn = 1;
 	}
-	if(timing < global.MaxTime*global.InsanePercent){
+	else if(timing < global.MaxTime*global.InsanePercent){
 		audio_play_sound(Insane,0,false);
 		Earn_Score();
 		
@@ -98,7 +98,7 @@ function Perfect_Timing_event()
 		global.result = 3;
 		global.TravelEarn = 2;
 	}
-	if(timing > global.MaxTime*global.goodPercent){
+	else if(timing > global.MaxTime*global.goodPercent){
 		MinusLife();
 
 		global.TravelEarn = -1;
@@ -123,11 +123,20 @@ function Perfect_Cooldown(Time)
 	global.TravelEarn = 0;
 	// global.MaxTime = Time;
 	
-	if(global.second > 0)
+	if(global.second >= 0)
 	{
 		global.second = global.second - delta_time/1000000 ;
 		Timer_point.image_angle += ((1/1000000)*360)/global.MaxTime * delta_time;
-		
+		angle = Timer_point.image_angle;
+		if(global.second <= global.MaxTime*global.PerfectPercent) 
+		{
+				Timer_point.sprite_index = interface_point_Blue	;
+				Timer_point.image_angle = angle;
+		}
+		if(global.second >= global.MaxTime*global.PerfectPercent) 
+		{
+				Timer_point.sprite_index = interface_point	;
+		}
 		if(global.Score == 0 && global.second <= global.MaxTime*global.goodPercent){
 			spaceIndice.visible = true;
 		}
