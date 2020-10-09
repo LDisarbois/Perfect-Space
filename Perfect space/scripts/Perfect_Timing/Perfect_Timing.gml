@@ -66,12 +66,14 @@ function Perfect_Timing_event()
 	if(timing < global.MaxTime*global.goodPercent && timing > global.MaxTime*global.PerfectPercent){
 		Earn_Score();
 		
+		
 		txt_good.visible = true;
 
 		global.result = 1;
 		global.TravelEarn = 0;
 	}
 	if(timing < global.MaxTime*global.PerfectPercent && timing > global.MaxTime*global.InsanePercent){
+		audio_play_sound(Perfect,0,false);
 		Earn_Score();
 		
 		txt_perfect.visible = true;
@@ -80,6 +82,7 @@ function Perfect_Timing_event()
 		global.TravelEarn = 1;
 	}
 	if(timing < global.MaxTime*global.InsanePercent){
+		audio_play_sound(Insane,0,false);
 		Earn_Score();
 		
 		txt_insane.visible = true;
@@ -102,6 +105,8 @@ function Earn_Score(){
 	global.xp[global.index_target].direction = point_direction(global.xp[global.index_target].x, global.xp[global.index_target].y, TXT_Score.x, TXT_Score.y + 25);
 	global.xp[global.index_target].speed = 15;
 	
+	audio_play_sound_at(meteorite3,global.xp[global.index_target].x,global.xp[global.index_target].y,0,500,2,0,0,1);
+	
 	global.Score += 100;
 }
 
@@ -121,6 +126,7 @@ function Perfect_Cooldown(Time)
 	}else{
 		//tu meurt batard
 		LifeEventBadTiming();
+		audio_play_sound(Tmort,0,false);
 	}
 }
 	
