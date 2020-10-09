@@ -44,6 +44,7 @@
     {"id":{"name":"Planet_10","path":"sprites/Planet_10/Planet_10.yy",},"order":10,},
     {"id":{"name":"Planet_1","path":"sprites/Planet_1/Planet_1.yy",},"order":4,},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
+    {"id":{"name":"DeathScreen","path":"objects/DeathScreen/DeathScreen.yy",},"order":24,},
     {"id":{"name":"obj_pla_8","path":"objects/obj_pla_8/obj_pla_8.yy",},"order":6,},
     {"id":{"name":"planet_7_anim","path":"sprites/planet_7_anim/planet_7_anim.yy",},"order":37,},
     {"id":{"name":"BarVie","path":"objects/BarVie/BarVie.yy",},"order":2,},

@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"63f0f600-db49-460b-aa54-94b5d9f2c8be","path":"sprites/MortTXT/MortTXT.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"63f0f600-db49-460b-aa54-94b5d9f2c8be","path":"sprites/MortTXT/MortTXT.yy",},"LayerId":{"name":"7151e4af-17ed-47f4-9bea-7b9f1f91a776","path":"sprites/MortTXT/MortTXT.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"MortTXT","path":"sprites/MortTXT/MortTXT.yy",},"resourceVersion":"1.0","name":"63f0f600-db49-460b-aa54-94b5d9f2c8be","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"217743e7-988b-4829-a0e6-5e60ecacdfed","path":"sprites/MortTXT/MortTXT.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"217743e7-988b-4829-a0e6-5e60ecacdfed","path":"sprites/MortTXT/MortTXT.yy",},"LayerId":{"name":"7151e4af-17ed-47f4-9bea-7b9f1f91a776","path":"sprites/MortTXT/MortTXT.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"MortTXT","path":"sprites/MortTXT/MortTXT.yy",},"resourceVersion":"1.0","name":"217743e7-988b-4829-a0e6-5e60ecacdfed","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"MortTXT","path":"sprites/MortTXT/MortTXT.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9a46fbe3-278e-424e-b56e-575226a5d019","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"63f0f600-db49-460b-aa54-94b5d9f2c8be","path":"sprites/MortTXT/MortTXT.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5f24a810-a6fa-4651-8100-0b19f94c95d4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"217743e7-988b-4829-a0e6-5e60ecacdfed","path":"sprites/MortTXT/MortTXT.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
