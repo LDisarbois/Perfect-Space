@@ -57,7 +57,15 @@ function stop_movement(){
 }
 
 function shakeSprite(){
-	
+
+	if(global.isShake == true){
+	global.timeShake -= delta_time/1000000;
+		if(global.timeShake <=0 ){
+			global.isShake = false ;
+			global.timeShake = 1;
+		}
+	}
+		
 }
 
 function reach_planete(){

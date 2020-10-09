@@ -26,13 +26,18 @@ function LifeEventBadTiming()
 	}
 }
 
+
+
 function LifeDecrease(){
 	if(global.Life == 2){
 		obj_vaisseau.sprite_index = decrochage_1;
+		global.isShake = true ;
 	}
 	if(global.Life == 1){
-		obj_vaisseau.sprite_index = decrochage_2;		
+		obj_vaisseau.sprite_index = decrochage_2;	
+		global.isShake = true ;
 	}
 	audio_play_sound_at(Explosion,obj_vaisseau.x,obj_vaisseau.y,0,200,500,1,0,1)
+	
 	
 }

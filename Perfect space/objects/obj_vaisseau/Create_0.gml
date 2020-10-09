@@ -11,5 +11,7 @@ enum e_point
 length = 100;
 width = 25;
 
+audio_play_sound(Looped_VVV_Song,1,true);
+
 basic_movement();
 Perfect_Timing();

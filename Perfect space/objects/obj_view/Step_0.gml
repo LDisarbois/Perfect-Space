@@ -1,3 +1,6 @@
-vx = camera_get_view_x(view_camera[0]);
-vy = camera_get_view_y(view_camera[0]);
+dx = random_range(-shake,shake);
+dy = random_range(-shake,shake); 
 shakeSprite();
+if(global.isShake == true){
+camera_set_view_pos(view_camera[0],dx,dy);
+}

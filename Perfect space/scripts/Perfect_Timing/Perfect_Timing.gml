@@ -118,7 +118,7 @@ function Earn_Score(){
 	global.Score += 100;
 }
 
-function Perfect_Cooldown(Time)
+function Perfect_Cooldown()
 {
 	global.TravelEarn = 0;
 	// global.MaxTime = Time;
@@ -144,6 +144,7 @@ function Perfect_Cooldown(Time)
 	}else{
 		//tu meurt batard
 		LifeEventBadTiming();
+		global.isShake = true ;
 	}
 }
 	
