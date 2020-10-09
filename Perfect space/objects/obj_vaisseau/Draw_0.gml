@@ -14,7 +14,7 @@ for(var i = 0; i < size_list-1; i++){
 	
 	var dir = point_direction(x1, y1, x2, y2);
 	var ortho_dir1 = dir + 90;	
-	var ortho_dir2 = dir - 90;
+	var ortho_dir2 = dir - 70;
 	
 	draw_vertex(x1 + lengthdir_x(w1, ortho_dir1), y1 + lengthdir_y(w1, ortho_dir1));
 	draw_vertex(x1 + lengthdir_x(w1, ortho_dir2), y1 + lengthdir_y(w1, ortho_dir2));

@@ -8,7 +8,7 @@ enum e_point
 	width,
 	length,
 }
-length = 60;
+length = 100;
 width = 25;
 
 
