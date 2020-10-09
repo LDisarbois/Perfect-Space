@@ -29,8 +29,6 @@ function LifeEventBadTiming()
 function LifeDecrease(){
 	if(global.Life == 2){
 		obj_vaisseau.sprite_index = decrochage_1;
-		
-		
 	}
 	if(global.Life == 1){
 		obj_vaisseau.sprite_index = decrochage_2;		

@@ -47,7 +47,7 @@
     "spriteId": {"name":"decrochage_2","path":"sprites/decrochage_2/decrochage_2.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

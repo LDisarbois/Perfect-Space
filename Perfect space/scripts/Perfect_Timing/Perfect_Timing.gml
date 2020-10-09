@@ -114,6 +114,7 @@ function Earn_Score(){
 
 function Perfect_Cooldown(Time)
 {
+	global.TravelEarn = 0;
 	// global.MaxTime = Time;
 	
 	if(global.second > 0)
