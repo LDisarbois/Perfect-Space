@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 153,
-  "bbox_right": 852,
-  "bbox_top": 242,
-  "bbox_bottom": 648,
+  "bbox_left": 170,
+  "bbox_right": 870,
+  "bbox_top": 374,
+  "bbox_bottom": 783,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,27 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c15a01d6-9c3f-4289-8f28-82b6d6cdf911","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c15a01d6-9c3f-4289-8f28-82b6d6cdf911","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"c15a01d6-9c3f-4289-8f28-82b6d6cdf911","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"40e9b698-6503-44f3-9808-12963cc9cba6","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"40e9b698-6503-44f3-9808-12963cc9cba6","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"40e9b698-6503-44f3-9808-12963cc9cba6","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e71e2300-3ba0-4e61-be8c-5faad6d2de21","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e71e2300-3ba0-4e61-be8c-5faad6d2de21","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"e71e2300-3ba0-4e61-be8c-5faad6d2de21","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"fd79d9c4-8742-490b-9522-7004f10da27f","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fd79d9c4-8742-490b-9522-7004f10da27f","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"fd79d9c4-8742-490b-9522-7004f10da27f","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8b0972b6-a38c-4820-bfad-39618dc20e6d","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8b0972b6-a38c-4820-bfad-39618dc20e6d","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"8b0972b6-a38c-4820-bfad-39618dc20e6d","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"11291d9e-9df6-451a-9e16-3b04f907ad77","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"11291d9e-9df6-451a-9e16-3b04f907ad77","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"11291d9e-9df6-451a-9e16-3b04f907ad77","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"bbfd38ad-1da5-45ca-8442-007bb88a81a0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bbfd38ad-1da5-45ca-8442-007bb88a81a0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"bbfd38ad-1da5-45ca-8442-007bb88a81a0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd246fc8-415d-417c-b48a-dd2b7cead0f1","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd246fc8-415d-417c-b48a-dd2b7cead0f1","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"cd246fc8-415d-417c-b48a-dd2b7cead0f1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3ff5b7e0-38b6-4ea5-be7e-5d96b443ca55","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3ff5b7e0-38b6-4ea5-be7e-5d96b443ca55","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"3ff5b7e0-38b6-4ea5-be7e-5d96b443ca55","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1b9129b8-239f-40ab-8926-a9463d172861","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1b9129b8-239f-40ab-8926-a9463d172861","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"1b9129b8-239f-40ab-8926-a9463d172861","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"95184583-8c32-40ce-bc48-c5a5d39422ab","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"95184583-8c32-40ce-bc48-c5a5d39422ab","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"95184583-8c32-40ce-bc48-c5a5d39422ab","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d9de8edd-5d71-4fbf-8ad7-7d2d71e6d641","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d9de8edd-5d71-4fbf-8ad7-7d2d71e6d641","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"d9de8edd-5d71-4fbf-8ad7-7d2d71e6d641","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a29aae93-f425-46d6-ac61-42903d4f51cf","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a29aae93-f425-46d6-ac61-42903d4f51cf","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"a29aae93-f425-46d6-ac61-42903d4f51cf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c98618aa-92d1-4e93-9311-204ba8066ff0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c98618aa-92d1-4e93-9311-204ba8066ff0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"c98618aa-92d1-4e93-9311-204ba8066ff0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b7a01356-7fe6-4a69-a8a7-9e7da8725df0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b7a01356-7fe6-4a69-a8a7-9e7da8725df0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"b7a01356-7fe6-4a69-a8a7-9e7da8725df0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b406ff23-0659-413c-abde-67e8f6a5099d","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b406ff23-0659-413c-abde-67e8f6a5099d","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"b406ff23-0659-413c-abde-67e8f6a5099d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"05253ff0-445e-48c1-8c4a-0bf663ff5fe8","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"05253ff0-445e-48c1-8c4a-0bf663ff5fe8","path":"sprites/planet_8_anim/planet_8_anim.yy",},"LayerId":{"name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","name":"05253ff0-445e-48c1-8c4a-0bf663ff5fe8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},
@@ -54,18 +63,21 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 7.0,
+    "length": 10.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f1151786-bed1-40c1-8f42-ae1fcd899179","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c15a01d6-9c3f-4289-8f28-82b6d6cdf911","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d99566fe-dab2-4eef-9b41-bbc872b581b0","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"40e9b698-6503-44f3-9808-12963cc9cba6","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d763a02d-99ce-4c24-beec-d09f4018f159","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e71e2300-3ba0-4e61-be8c-5faad6d2de21","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b5762169-b337-4bf9-8a3a-b94028e74257","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd79d9c4-8742-490b-9522-7004f10da27f","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d47d957c-e640-4733-a510-afce97f5a176","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8b0972b6-a38c-4820-bfad-39618dc20e6d","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"8fbee6ad-6659-47f8-b9f1-b684590ed5e2","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"11291d9e-9df6-451a-9e16-3b04f907ad77","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"55172547-044b-4d96-aa82-5411f8009fab","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bbfd38ad-1da5-45ca-8442-007bb88a81a0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"21257799-8005-4c9c-a461-763f4a5ed58a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd246fc8-415d-417c-b48a-dd2b7cead0f1","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"98d2e315-6542-4b8c-be6b-fd3cb1523972","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3ff5b7e0-38b6-4ea5-be7e-5d96b443ca55","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7f988fcf-6d72-43d0-91c8-8bbb27d27deb","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1b9129b8-239f-40ab-8926-a9463d172861","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3fee312c-025e-484b-a2a8-9d0b400053a3","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95184583-8c32-40ce-bc48-c5a5d39422ab","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6421ab05-ab20-4a1f-8e72-3e45c059f936","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d9de8edd-5d71-4fbf-8ad7-7d2d71e6d641","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2f393148-d0cd-43a3-a4de-5757c7dd891f","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a29aae93-f425-46d6-ac61-42903d4f51cf","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d3ce3738-be54-44a2-b7e5-0b57b0d65c2f","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c98618aa-92d1-4e93-9311-204ba8066ff0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"59b019cc-09a3-4591-8c0e-58852a3779db","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b7a01356-7fe6-4a69-a8a7-9e7da8725df0","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"16d40c36-2c5d-4faf-b8a4-15d7d1ff2185","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b406ff23-0659-413c-abde-67e8f6a5099d","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0f068fb5-f471-4a6b-a2b1-6fe445067414","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"05253ff0-445e-48c1-8c4a-0bf663ff5fe8","path":"sprites/planet_8_anim/planet_8_anim.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -78,8 +90,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 190,
-    "yorigin": 187,
+    "xorigin": 95,
+    "yorigin": 93,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"planet_8_anim","path":"sprites/planet_8_anim/planet_8_anim.yy",},
@@ -89,7 +101,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b0fc97fd-db62-4a6c-8310-4a69d8ab03ee","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70421edc-5063-4bcc-a59b-ffe59dca1ce3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

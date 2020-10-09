@@ -16,9 +16,10 @@ if(!global.move){
 		txt_perfect.visible = false;
 		txt_insane.visible = false;
 
-
-		Perfect_Cooldown(global.MaxTime);
-	
+		if(global.TravelEarn != -1){
+			Perfect_Cooldown(global.MaxTime);
+		}
+		
 		if(keyboard_check_pressed(vk_space)){
 			
 			if(global.Score == 0){
@@ -29,7 +30,7 @@ if(!global.move){
 			resetTime();
 		
 			if(global.TravelEarn = -1){
-				Perfect_Cooldown(3);
+				//Perfect_Cooldown(3);
 			} else {
 				defineNewTarget();
 				basic_movement();
