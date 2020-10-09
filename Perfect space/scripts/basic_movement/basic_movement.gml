@@ -23,22 +23,24 @@ function defineNewTarget(){
 	global.index_target = (global.index_target + 1)  % global.nb_pla;
 	global.target_pla = global.planetes[global.index_target];
 	
-	timer.x = global.cp[global.index_target].x;	
-	timer.y = global.cp[global.index_target].y;
+	var test = (global.index_target + global.TravelEarn) % global.nb_pla;
 	
-	time_point.x = global.cp[global.index_target].x;	
-	time_point.y = global.cp[global.index_target].y;
+	timer.x = global.cp[test].x;	
+	timer.y = global.cp[test].y;
+	
+	time_point.x = global.cp[test].x;	
+	time_point.y = global.cp[test].y;
 	
 	
-	txt_good.x = global.cp[global.index_target].x;	
-	txt_good.y = global.cp[global.index_target].y - 50;
+	txt_good.x = global.cp[test].x;	
+	txt_good.y = global.cp[test].y - 50;
 	
-	txt_insane.x = global.cp[global.index_target].x;	
-	txt_insane.y = global.cp[global.index_target].y - 50;
+	txt_insane.x = global.cp[test].x;	
+	txt_insane.y = global.cp[test].y - 50;
 	
-	txt_perfect.x = global.cp[global.index_target].x;	
-	txt_perfect.y = global.cp[global.index_target].y - 50;
-
+	txt_perfect.x = global.cp[test].x;	
+	txt_perfect.y = global.cp[test].y - 50;
+	
 }
 
 

@@ -4,12 +4,14 @@ if(!global.move){
 
 	if(global.TravelEarn > 0){
 	
+		global.TravelEarn--;
+		
 		resetTime();
 		Earn_Score();
 	
 		defineNewTarget();
 		basic_movement();
-		global.TravelEarn--;
+		
 	
 	} else {
 		txt_good.visible = false;
