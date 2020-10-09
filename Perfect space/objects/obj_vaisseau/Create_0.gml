@@ -11,6 +11,5 @@ enum e_point
 length = 100;
 width = 25;
 
-
 basic_movement();
 Perfect_Timing();
