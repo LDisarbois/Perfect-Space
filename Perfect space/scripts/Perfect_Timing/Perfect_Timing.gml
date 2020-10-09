@@ -11,9 +11,11 @@ global.PerfectPercent = 13/100;
 global.InsanePercent = 5/100;
 global.Score = 0;
 
+global.ScoreDisplay = 0;
+
 global.TravelEarn = 0;
 
-global.result = 1;
+global.result = 0;
 
 
 math_set_epsilon(6);
@@ -92,10 +94,14 @@ function Perfect_Timing_event()
 	}
 }
 
-
 function Earn_Score(){
 	global.pts[global.index_target].visible = true;
 	global.pts[global.index_target].image_speed = 0.8;
+	
+	global.xp[global.index_target].visible = true;
+	global.xp[global.index_target].direction = point_direction(global.xp[global.index_target].x, global.xp[global.index_target].y, TXT_Score.x, TXT_Score.y + 25);
+	global.xp[global.index_target].speed = 15;
+	
 	global.Score += 100;
 }
 

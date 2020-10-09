@@ -4,6 +4,9 @@
 // for more information
 
 global.planetes = [pla_1, pla_2, pla_3, pla_4, pla_5, pla_6, pla_7, pla_8, pla_9];
+
+global.xp = [xp_1, xp_2, xp_3, xp_4, xp_5, xp_6, xp_7, xp_8, xp_9];
+
 global.pts = [earnpts_1, earnpts_2, earnpts_3, earnpts_4, earnpts_5, earnpts_6, earnpts_7, earnpts_8, earnpts_9];
 global.target_pla = global.planetes[0];
 global.index_target = 0;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "pts_alternate",
-    "path": "sprites/pts_alternate/pts_alternate.yy",
+    "name": "pt_xp",
+    "path": "sprites/pt_xp/pt_xp.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"EarnPts","path":"objects/EarnPts/EarnPts.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"parent":{"name":"EarnPts","path":"objects/EarnPts/EarnPts.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"pts_xp","path":"objects/pts_xp/pts_xp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"pts_xp","path":"objects/pts_xp/pts_xp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "EarnPts",
+  "name": "pts_xp",
   "tags": [],
   "resourceType": "GMObject",
 }
