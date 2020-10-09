@@ -1,3 +1,5 @@
+audio_stop_all();
+
 window_set_cursor(cr_none);
 
 list_points = ds_list_create();
