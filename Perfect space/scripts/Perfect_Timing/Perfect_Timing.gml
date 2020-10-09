@@ -33,14 +33,20 @@ function Die(){
 }
 
 function resetTime(){
-	if(global.Score >= 3500) {
+	if(global.Score >= 4500) {
 		global.MaxTime = 0.5;
-	} else if(global.Score >= 2500) {
-		global.MaxTime = 0.7;
-	} else if (global.Score >= 1500){
+	} else if(global.Score >= 3500) {
+		global.MaxTime = 0.8;
+	}else if(global.Score >= 2800) {
 		global.MaxTime = 1;
-	} else if (global.Score >= 500){
+	}else if(global.Score >= 2000) {
+		global.MaxTime = 1.5;
+	}else if(global.Score >= 1400) {
 		global.MaxTime = 2;
+	} else if (global.Score >= 900){
+		global.MaxTime = 2.5;
+	} else if (global.Score >= 500){
+		global.MaxTime = 2.8;
 	} else {
 		global.MaxTime = 3;
 	}
