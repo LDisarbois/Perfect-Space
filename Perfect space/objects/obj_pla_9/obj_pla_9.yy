@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Planet_9",
-    "path": "sprites/Planet_9/Planet_9.yy",
+    "name": "planet_9_anim",
+    "path": "sprites/planet_9_anim/planet_9_anim.yy",
   },
   "solid": false,
   "visible": true,
